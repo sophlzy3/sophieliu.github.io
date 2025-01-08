@@ -25,12 +25,12 @@ author:
   name             : "Sophie Liu"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
-  location         : # "Toronto, Canada"
+  location         : "Toronto, Canada"
   employer         : "University of Toronto"
   uri              : # URL
   email            : "sophiezy.liu@mail.utoronto.ca" 
 
-  # Academic websites
+  ## Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
   # googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   # impactstory      : # URL
@@ -279,6 +279,15 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+  
+  # _photography
+  - scope:
+      path: ""
+      type: photography
+    values:
+      layout: portfolio
       author_profile: true
       share: true
 
